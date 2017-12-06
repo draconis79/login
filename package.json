@@ -1,0 +1,31 @@
+{
+  "name": "cool_kicks",
+  "version": "1.0.0",
+  "description": "Web app that allows users to add their sneaker collection.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draconis79/cool_kicks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/draconis79/cool_kicks/issues"
+  },
+  "homepage": "https://github.com/draconis79/cool_kicks#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "install": "^0.10.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.5",
+    "morgan": "^1.9.0",
+    "pretty-error": "^2.1.1"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+    <% include partials/nav.ejs %>
+
+    <!-- register -->
+
+    <h2>Sign Up</h2>
+    <form action="/user/register" method="post">
+      <label for="username">Username:</label>
+        <input class="form-control" name="username" placeholder="Enter Username">
+        <label for="pwd">Password:</label>
+        <input type="password" name="password" placeholder="Enter Password">
+        <button type="submit">Submit</button>
+      </form>
+</body>
+
+</html>
